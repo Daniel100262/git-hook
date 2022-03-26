@@ -11,7 +11,7 @@ public class ValidationController {
 	
 	@GetMapping
 	public ResponseEntity<String> validate() {
-		return ResponseEntity.ok("The API is running!");
+		return ResponseEntity.ok("The API is running!);
 	}
 	
 }
