@@ -17,6 +17,6 @@ public class ValidationController {
 	
 	@PostMapping
 	public ResponseEntity<String> newEndpoint() {
-		return ResponseEntity.ok("Hi! I'm the new endpoint!);
+		return ResponseEntity.ok("Hi! I'm the new endpoint!");
 	}
 }
